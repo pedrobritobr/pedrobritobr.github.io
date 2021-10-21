@@ -1,3 +1,42 @@
+@font-face {
+  font-family: encodeSansSemiCondensedRegular;
+  src: url(./styles/fonts/EncodeSansSC_SemiCondensed/EncodeSansSC_SemiCondensed-Regular.ttf);
+}
+
+@font-face {
+  font-family: encodeSansSemiCondensedSemiBold;
+  src: url(./styles/fonts/EncodeSansSC_SemiCondensed/EncodeSansSC_SemiCondensed-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: encodeSansSemiCondensedMedium;
+  src: url(./styles/fonts/EncodeSansSC_SemiCondensed/EncodeSansSC_SemiCondensed-Medium.ttf);
+}
+
+/* 100 thin */
+/* 200 xlight */
+/* 300 light */
+/* 400 regular */
+/* 500 medium */
+/* 600 sbold */
+/* 700 bold */
+/* 800 xbold */
+/* 900 black */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: encodeSansSemiCondensedMedium;
+  /* font-family: encodeSansSemiCondensedRegular; */
+  /* font-family: encodeSansSemiCondensedSemiBold; */
+  background-color: #F2F2F2;
+  color: #F2F2F2;
+  height: 100px;
+}
+
 .App {
   text-align: center;
 }
