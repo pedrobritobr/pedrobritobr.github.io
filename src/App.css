@@ -1,16 +1,6 @@
-@font-face {
+/* @font-face {
   font-family: encodeSansSemiCondensedRegular;
   src: url(./styles/fonts/EncodeSansSC_SemiCondensed/EncodeSansSC_SemiCondensed-Regular.ttf);
-}
-
-@font-face {
-  font-family: encodeSansSemiCondensedSemiBold;
-  src: url(./styles/fonts/EncodeSansSC_SemiCondensed/EncodeSansSC_SemiCondensed-SemiBold.ttf);
-}
-
-@font-face {
-  font-family: encodeSansSemiCondensedMedium;
-  src: url(./styles/fonts/EncodeSansSC_SemiCondensed/EncodeSansSC_SemiCondensed-Medium.ttf);
 }
 
 /* 100 thin */
@@ -26,54 +16,32 @@
 * {
   margin: 0;
   padding: 0;
+  background-color: #041834;
 }
 
 body {
-  font-family: encodeSansSemiCondensedMedium;
-  /* font-family: encodeSansSemiCondensedRegular; */
-  /* font-family: encodeSansSemiCondensedSemiBold; */
-  background-color: #F2F2F2;
+  /* font-family: encodeSansSemiCondensedMedium; */
   color: #F2F2F2;
   height: 100px;
 }
 
 .App {
-  text-align: center;
-  background-color: #041834;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* .App > * {
+  background-color: aqua;
+} */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-header {
+  width: 70vw;
+  font-size: 0.8em;
 }
 
 a {
@@ -81,7 +49,7 @@ a {
 }
 
 a:link, a:visited, a:hover, a:active {
-  color: white;
+  color: #F2F2F2;
   background-color: transparent;
   text-decoration: none;
 }

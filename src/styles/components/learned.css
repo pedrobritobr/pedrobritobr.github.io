@@ -1,0 +1,12 @@
+.techs-learned {
+  display: flex;
+  /* background-color: red; */
+  width: 70vw;
+  /* align-content: center; */
+  justify-content: center;
+}
+
+.techs-learned img {
+  width: 6vw;
+  margin: 0px 1vw;
+}

@@ -1,14 +1,10 @@
 import React from 'react';
-import reactLogo from './styles/images/toolsLogos';
+// import reactLogo from './styles/images/toolsLogos';
 import './App.css';
+import Learned from './components/Learned';
 
 // EDITAR FONT
 // C:\Users\Pedro\Desktop\Poppins
-
-// EDITAR FAVICON
-// https://duckduckgo.com/?t=ffab&q=favicon+html&ia=web
-// https://kenzie.com.br/blog/favicon/
-// https://www.digitalocean.com/community/tutorials/how-to-add-a-favicon-to-your-website-with-html
 
 function App() {
   return (
@@ -17,7 +13,9 @@ function App() {
         <h1 className="page-title">
           Precisando de um desenvolvedor web/apps?
         </h1>
-        <img src={reactLogo} className="App-logo" alt="logo" />
+      </header>
+      {Learned()}
+      <footer>
         <h2>
           <a
             href="https://www.linkedin.com/in/pedrobritobr/"
@@ -27,7 +25,7 @@ function App() {
             meu LinkedIn
           </a>
         </h2>
-      </header>
+      </footer>
     </div>
   );
 }
